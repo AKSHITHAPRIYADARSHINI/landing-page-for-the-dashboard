@@ -1,0 +1,131 @@
+
+> landing-page-for-the-dashboard@0.1.0 dev
+> next dev -p 3002
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://192.168.56.1:3002
+
+✓ Starting...
+✓ Ready in 2.4s
+○ Compiling / ...
+ HEAD / 200 in 6.7s (compile: 5.3s, render: 1422ms)
+Error: Can't resolve 'tailwindcss' in 'C:\Users\akshi\Downloads'
+    [2m[at finishWithoutResolve (C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:586:18)][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:678:14][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m
+    [2m[at eval (eval at create (C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m
+    [2m[at eval (eval at create (C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m
+    [2m[at eval (eval at create (C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\akshi\\Downloads'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\akshi\\package.json (relative path: ./Downloads)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\akshi\\Downloads\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\akshi\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\akshi\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\akshi\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\akshi\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\akshi\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\akshi\Downloads'
+    [2m[at finishWithoutResolve (C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:586:18)][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:678:14][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m
+    [2m[at eval (eval at create (C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m
+    [2m[at eval (eval at create (C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m
+    [2m[at eval (eval at create (C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\akshi\Downloads\landing-page-for-the-dashboard\node_modules\enhanced-resolve\lib\Resolver.js:739:5][0m {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\akshi\\Downloads'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\akshi\\package.json (relative path: ./Downloads)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\akshi\\Downloads\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\akshi\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\akshi\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\akshi\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\akshi\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\akshi\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+ GET / 200 in 334ms (compile: 34ms, render: 300ms)
+✓ Compiled in 181ms
+✓ Compiled in 91ms
+✓ Compiled in 77ms
+✓ Compiled in 86ms
+✓ Compiled in 100ms
+✓ Compiled in 383ms
+✓ Compiled in 279ms
+✓ Compiled in 113ms
+ GET / 200 in 413ms (compile: 178ms, render: 234ms)
+ GET / 200 in 406ms (compile: 213ms, render: 193ms)
+ GET / 200 in 552ms (compile: 527ms, render: 25ms)
+⚠ Fast Refresh had to perform a full reload when ./src/app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 254ms (compile: 6ms, render: 248ms)
+✓ Compiled in 79ms
+ HEAD / 200 in 219ms (compile: 59ms, render: 160ms)
+✓ Compiled in 305ms
+✓ Compiled in 47ms
+✓ Compiled in 81ms
+✓ Compiled in 70ms
+✓ Compiled in 90ms
+ HEAD / 200 in 232ms (compile: 101ms, render: 131ms)
+ GET / 200 in 165ms (compile: 14ms, render: 151ms)
+ GET / 200 in 85ms (compile: 12ms, render: 73ms)
+✓ Compiled in 835ms
+✓ Compiled in 79ms
+✓ Compiled in 121ms
+✓ Compiled in 93ms
+✓ Compiled in 35ms
+ HEAD / 200 in 537ms (compile: 181ms, render: 356ms)
+ GET / 200 in 104ms (compile: 8ms, render: 96ms)
+ GET / 200 in 98ms (compile: 10ms, render: 88ms)
+✓ Compiled in 103ms
+✓ Compiled in 137ms
+ HEAD / 200 in 271ms (compile: 89ms, render: 182ms)
+ GET / 200 in 111ms (compile: 9ms, render: 102ms)
+ GET / 200 in 129ms (compile: 13ms, render: 116ms)
+✓ Compiled in 145ms
+ HEAD / 200 in 215ms (compile: 75ms, render: 140ms)
+✓ Compiled in 161ms
+✓ Compiled in 112ms
+✓ Compiled in 67ms
+✓ Compiled in 50ms
+ GET / 200 in 329ms (compile: 96ms, render: 234ms)
+ HEAD / 200 in 104ms (compile: 7ms, render: 97ms)
+ GET / 200 in 370ms (compile: 28ms, render: 342ms)
+✓ Compiled in 346ms
+✓ Compiled in 93ms
+ GET / 200 in 230ms (compile: 91ms, render: 138ms)
+ HEAD / 200 in 67ms (compile: 5ms, render: 61ms)
+ GET / 200 in 285ms (compile: 13ms, render: 272ms)
+✓ Compiled in 147ms
+✓ Compiled in 187ms
+ GET / 200 in 311ms (compile: 92ms, render: 218ms)
+ HEAD / 200 in 86ms (compile: 7ms, render: 78ms)
+✓ Compiled in 157ms
+✓ Compiled in 174ms
+ GET / 200 in 248ms (compile: 70ms, render: 177ms)
+ HEAD / 200 in 82ms (compile: 5ms, render: 77ms)
+ GET / 200 in 109ms (compile: 7ms, render: 103ms)
+✓ Compiled in 114ms
+✓ Compiled in 232ms
+ GET / 200 in 268ms (compile: 65ms, render: 204ms)
+ HEAD / 200 in 88ms (compile: 8ms, render: 80ms)
+ GET / 200 in 159ms (compile: 9ms, render: 149ms)

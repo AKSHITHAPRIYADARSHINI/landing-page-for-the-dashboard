@@ -1,0 +1,181 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #020617;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+  --muted: #e2e8f0;
+  --muted-foreground: #334155;
+  --border: #dbe3ee;
+  --accent: #e0f2fe;
+  --ring: #0ea5e9;
+}
+
+.dark {
+  --background: #020617;
+  --foreground: #ffffff;
+  --card: #0f172a;
+  --card-foreground: #ffffff;
+  --primary: #60a5fa;
+  --primary-foreground: #06203a;
+  --muted: #1e293b;
+  --muted-foreground: #cbd5e1;
+  --border: #334155;
+  --accent: #0b1e35;
+  --ring: #67e8f9;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-source-serif);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-ring: var(--ring);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-geist-sans), sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  transition: background-color 280ms ease, color 280ms ease;
+}
+
+/* Hard light-mode readability override */
+html:not(.dark) body {
+  color: #0f172a !important;
+}
+
+html:not(.dark) .text-muted-foreground {
+  color: #334155 !important;
+}
+
+html:not(.dark) .text-white,
+html:not(.dark) .text-white\/80,
+html:not(.dark) .text-slate-300,
+html:not(.dark) .text-slate-200 {
+  color: #0f172a !important;
+}
+
+html:not(.dark) .text-slate-600 {
+  color: #334155 !important;
+}
+
+html:not(.dark) .text-slate-700 {
+  color: #1e293b !important;
+}
+
+/* Explicit light class overrides from next-themes */
+html.light {
+  --foreground: #0f172a;
+  --card-foreground: #0f172a;
+  --muted-foreground: #334155;
+}
+
+html.light body,
+html.light main,
+html.light header,
+html.light section,
+html.light footer {
+  color: #0f172a !important;
+}
+
+html.light .text-foreground,
+html.light .text-card-foreground {
+  color: #0f172a !important;
+}
+
+html.light .text-muted-foreground {
+  color: #334155 !important;
+}
+
+html.light [class*="text-white"],
+html.light [class*="text-slate-200"],
+html.light [class*="text-slate-300"] {
+  color: #0f172a !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes shineSweep {
+  0% {
+    transform: translateX(-250%) skewX(12deg);
+  }
+
+  100% {
+    transform: translateX(450%) skewX(12deg);
+  }
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.marquee-track {
+  animation: marquee 26s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.font-serif-accent {
+  font-family: var(--font-source-serif), serif;
+}
+
+.font-mono-metric {
+  font-family: var(--font-geist-mono), monospace;
+}
+
+.gradient-flow-text {
+  background-size: 260% 260%;
+  animation: gradientFlow 8s linear infinite;
+}
+
+.gradient-flow-surface {
+  background-size: 260% 260%;
+  animation: gradientFlow 11s linear infinite;
+}
